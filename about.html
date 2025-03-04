@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contact Us</title>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Poppins', sans-serif;
+			}
+
+			body {
+				margin: 0;
+				font-family: Arial, sans-serif;
+				color: #fff;
+				background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63452.jpg?semt=ais_hybrid');
+				background-size: cover;
+				background-position: center;
+				text-align: center;
+				min-height: 100vh; /*Ensure full height*/
+			}
+
+			/* Navigation Bar */
+			nav {
+				background-color: #2c3e50;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 15px 5%;
+				position: sticky;
+				top: 0;
+				z-index: 1000;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+			}
+
+			nav .logo {
+				font-size: 2rem;
+				font-weight: 600;
+				color: #fff;
+			}
+
+			nav ul {
+				list-style: none;
+				display: flex;
+			}
+
+			nav ul li {
+				margin-left: 20px;
+			}
+
+			nav ul li a {
+				text-decoration: none;
+				color: #fff;
+				font-weight: 400;
+				transition: color 0.3s ease;
+			}
+
+			nav ul li a:hover {
+				color: #ffccff;
+			}
+
+			/* Header Section */
+			header { /* Combined both headers into one */
+				text-align: center;
+				padding: 60px 20px;
+				margin: 50px auto;
+				width: 90%;
+				max-width: 800px;
+				background: rgba(0, 0, 0, 0.5);
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+			}
+
+			header h1 {
+				font-size: 3rem;
+				color: #cee0f8;
+				margin-bottom: 20px;
+				text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			}
+
+			header p {
+				font-size: 1.2rem;
+				color: #fff;
+				margin-bottom: 30px;
+				text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+			}
+
+			/* Contact Section */
+			.contact-container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				padding: 40px 20px;
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+
+			.contact-info, .contact-form {
+				background: #2c3e50;
+				border-radius: 10px;
+				padding: 20px;
+				margin: 10px;
+				flex: 1 1 45%;
+				color: #ddd;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+			}
+
+			.contact-info h2, .contact-form h2 {
+				color: #cee0f8;
+				margin-bottom: 15px;
+				text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+			}
+
+			.contact-info p {
+				margin-bottom: 10px;
+			}
+
+			.contact-form form {
+				display: flex;
+				flex-direction: column;
+			}
+
+			.contact-form label {
+				margin-bottom: 5px;
+				color: #eee;
+				text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+			}
+
+			.contact-form input, .contact-form textarea {
+				margin-bottom: 15px;
+				padding: 10px;
+				border: none;
+				border-radius: 5px;
+				background: #34495e;
+				color: #fff;
+				transition: background-color 0.3s ease, border 0.3s ease;
+			}
+
+			.contact-form input:focus, .contact-form textarea:focus {
+				background: #456990;
+				border: 1px solid #ffccff;
+				outline: none;
+			}
+
+			.contact-form button {
+				background-color: #3498db;
+				color: #fff;
+				font-weight: 600;
+				cursor: pointer;
+				transition: background-color 0.3s ease, transform 0.3s ease;
+				padding: 10px 20px;
+				border: none;
+				border-radius: 5px;
+				box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			}
+
+			.contact-form button:hover {
+				background-color: #2c3e50;
+				transform: translateY(-2px);
+			}
+
+			/* Footer */
+			footer {
+				text-align: center;
+				padding: 20px;
+				background-color: #2c3e50;
+				color: #cee0f8;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav>
+			<div class="logo">Donate for Change</div>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="programs.html">Programs</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="getinvolved.html">Get Involved</a></li>
+			</ul>
+		</nav>
+
+		<!-- Combined Header Section -->
+		<header>
+			<h1>Contact Us</h1>
+			<p>Have questions or want to get in touch? We're here to help!</p>
+		</header>
+
+		<!-- Contact Section -->
+		<div class="contact-container">
+			<!-- Contact Information -->
+			<div class="contact-info">
+				<h2>Our Contact Information</h2>
+				<p>Email: support@donateforchange.com</p>
+				<p>Phone: +1 (555) 123-4567</p>
+				<p>Address: 123 Charity Lane, Kindness City, Compassion State</p>
+			</div>
+
+			<!-- Contact Form -->
+			<div class="contact-form">
+				<h2>Send Us a Message</h2>
+				<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="Your Name" required>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" placeholder="Your Email" required>
+
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+					<button type="submit">Send Message</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2024 Donate for Change. All rights reserved.</p>
+		</footer>
+	</body>
+	</html>
